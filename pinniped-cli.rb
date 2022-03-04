@@ -2,8 +2,8 @@ class PinnipedCli < Formula
     desc "Pinniped CLI for Kubernetes cluster authentication"
     homepage "https://pinniped.dev/"
     url "https://github.com/vmware-tanzu/pinniped.git",
-        tag:      "v0.14.0",
-        revision: "59be3008fd7b4990bb41d34564515348f1340d0b"
+        tag:      "v0.15.0",
+        revision: "b987783c62b9971e033e522bddcd3e29a0ab5658"
     license "Apache-2.0"
     head "https://github.com/vmware-tanzu/pinniped.git", branch: "main"
     
