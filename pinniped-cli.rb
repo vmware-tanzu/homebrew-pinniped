@@ -15,7 +15,7 @@ class PinnipedCli < Formula
       unless version.to_s.include? "HEAD"
         ENV["KUBE_GIT_VERSION"] = "v#{version.to_s}" 
       end 
-      system "go build -o #{bin}/pinniped -ldflags \"$(hack/get-ldflags.sh)\" cmd/pinniped/main.go"
+      system "go build -o #{bin}/pinniped -ldflags \"$(hack/get-ldflags.sh)\" ./cmd/pinniped"
     end
   
     test do
